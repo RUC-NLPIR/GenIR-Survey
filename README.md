@@ -12,8 +12,8 @@ This repository contains a curated collection of research papers on generative i
      - [Training](#training)
      - [Structure](#structure)
    - [Document Identifier Design](#document-identifier-design)
-     - [Numeric-based](#numeric-based)
-     - [Text-based](#text-based)
+     - [Numeric-based](#numeric-based-identifier)
+     - [Text-based](#text-based-identifier)
    - [Incremental Learning](#incremental-learning)
    - [Downstream Task Adaptation](#downstream-task-adaptation)
      - [Separate Training](#separate-training)
@@ -71,7 +71,7 @@ This repository contains a curated collection of research papers on generative i
 6. Self-Retrieval: **"Self-Retrieval: Building an Information Retrieval System with One Large Language Model"**. _Qiaoyu Tang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2403.00801)\]
 
 #### Document Identifier Design
-- ##### **Numeric-based**
+- ##### **Numeric-based Identifier**
 1. DSI: **"Transformer Memory as a Differentiable Search Index"**. _Yi Tay et al._ NeurIPS 2022. \[[Paper](http://papers.nips.cc/paper_files/paper/2022/hash/892840a6123b5ec99ebaab8be1530fba-Abstract-Conference.html)\]
 2. DynamicRetriever: **"DynamicRetriever: A Pre-trained Model-based IR System Without an Explicit Index"**. _Yujia Zhou et al._ Mach. Intell. Res., 2023. \[[Paper](https://doi.org/10.1007/s11633-022-1373-9)\]
 3. Ultran: **"Ultron: An Ultimate Retriever on Corpus with a Model-based Indexer"**. _Yujia Zhou et al._ arXiv, 2022. \[[Paper](https://arxiv.org/abs/2208.09257)\]
@@ -81,7 +81,7 @@ This repository contains a curated collection of research papers on generative i
 7. LMIndexer: **"Language Models As Semantic Indexers"**. _Bowen Jin et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2310.07815)\]
 8. ASI: **"Auto Search Indexer for End-to-End Document Retrieval"**. _Tianchi Yang et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.464)\]
 9. RIPOR: **"Scalable and Effective Generative Information Retrieval"**. _Hansi Zeng et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2311.09134)\]
-- ##### **Text-based**
+- ##### **Text-based Identifier**
 1. GENRE: **"Autoregressive Entity Retrieval"**. _Nicola De Cao et al._ ICLR 2021. \[[Paper](https://openreview.net/forum?id=5k8F6UU39V)\]
 2. SEAL: **"Autoregressive Search Engines: Generating Substrings as Document Identifiers"**. _Michele Bevilacqua et al._ NeurIPS 2022. \[[Paper](http://papers.nips.cc/paper_files/paper/2022/hash/cd88d62a2063fdaf7ce6f9068fb15dcd-Abstract-Conference.html)\]
 3. Ultran: **"Ultron: An Ultimate Retriever on Corpus with a Model-based Indexer"**. _Yujia Zhou et al._ arXiv, 2022. \[[Paper](https://arxiv.org/abs/2208.09257)\]
@@ -254,20 +254,20 @@ This repository contains a curated collection of research papers on generative i
 ### Challenges and Prospects
 
 #### Generative Document Retrieval
-- **Scalability**
-- **Dynamic Corpora**
-- **Document Representation**
-- **Efficiency**
+- Scalability
+- Dynamic Corpora
+- Document Representation
+- Efficiency
 
 #### Reliable Response Generation
-- **Accuracy and Factuality**
-- **Real-time Property**
-- **Bias and Fairness**
-- **Privacy and Security**
+- Accuracy and Factuality
+- Real-time Property
+- Bias and Fairness
+- Privacy and Security
 
 #### Unified Framework
-- **Unified Framework for Retrieval and Generation**
-- **Towards End2end Framework for Various IR Tasks**
+- Unified Framework for Retrieval and Generation
+- Towards End2end Framework for Various IR Tasks
 
 ## 💡 Other Resources
 ### Awesome Lists
