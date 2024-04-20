@@ -1,13 +1,12 @@
 # GenIR-Survey
-This is the collection of papers related to generative information retrieval. These papers are organized according to our survey paper "[From Matching to Generation: A Survey on Generative Information Retrieval](https://arxiv.org/abs/2404.xxxxxx)".
+This repository contains a curated collection of research papers on generative information retrieval. These papers are organized according to the categorizations outlined in our survey "[From Matching to Generation: A Survey on Generative Information Retrieval](https://arxiv.org/abs/2404.xxxxxx)".
 
-> **TLDR:**  This survey explores Generative Information Retrieval (GenIR), marking a paradigm shift from traditional matching methods to generative approaches. We divide current GenIR research into two main categories: (1) generative document retrieval, which involves retrieval by directly generating document identifiers (DocIDs), without relying on large-scale indexing, and (2) reliable response generation, which uses language models to generate user-centric and reliable responses, directly meets the users' information need. This review aims to offer a comprehensive reference for researchers in the GenIR field, encouraging further development in this area.
+> **Short Abstract:** This survey explores generative information retrieval (GenIR), which marks a paradigm shift from traditional matching-based methods to generative approaches. We divide current GenIR research into two main categories: (1) generative document retrieval, which involves retrieval by directly generating document identifiers, without relying on large-scale indexing, and (2) reliable response generation, which uses language models to generate user-centric and reliable responses, directly meets the users' information need. This review aims to offer a comprehensive reference for researchers in the GenIR field, encouraging further development in this area.
 
 #### **Exploring IR Evolution: From Matching to Generation**
 ![Overview.png](assets/Overview.png)
 
 ## 📋 Table of Contents
-
 1. [Generative Document Retrieval](#generative-document-retrieval)
    - [Model Training and Structure](#model-training-and-structure)
      - [Training](#training)
@@ -21,7 +20,6 @@ This is the collection of papers related to generative information retrieval. Th
      - [Joint Training](#joint-training)
      - [Multi-Modal Generative Retrieval](#multi-modal-generative-retrieval)
    - [Generative Recommender Systems](#generative-recommender-systems)
-
 2. [Reliable Response Generation](#reliable-response-generation)
    - [Internal Knowledge Memorization](#internal-knowledge-memorization)
      - [Structural Design](#structural-design)
@@ -36,7 +34,6 @@ This is the collection of papers related to generative information retrieval. Th
    - [Personal Information Assistant](#personal-information-assistant)
      - [Personalized Dialogue](#personalized-dialogue)
      - [Domain-specific Personalization](#domain-specific-personalization)
-
 3. [Evaluation](#evaluation)
    - [Generative Document Retrieval](#evaluation-generative-document-retrieval)
      - [Metrics](#metrics)
@@ -45,17 +42,13 @@ This is the collection of papers related to generative information retrieval. Th
    - [Reliable Response Generation](#evaluation-reliable-response-generation)
      - [Metrics](#metrics-1)
      - [Benchmarks](#benchmarks-1)
-
 4. [Challenges and Prospects](#challenges-and-prospects)
    - [Generative Document Retrieval](#challenges-generative-document-retrieval)
    - [Reliable Response Generation](#challenges-reliable-response-generation)
    - [Unified Framework](#unified-framework)
 
-
 ## 📄 Paper List
-
 ### Generative Document Retrieval
-
 #### Model Training and Structure
 - ##### **Training**
   1. DSI: **"Transformer Memory as a Differentiable Search Index"**. _Yi Tay et al._ NeurIPS 2022. \[[Paper](http://papers.nips.cc/paper_files/paper/2022/hash/892840a6123b5ec99ebaab8be1530fba-Abstract-Conference.html)\]
@@ -74,7 +67,6 @@ This is the collection of papers related to generative information retrieval. Th
   4. DiffusionRet: **"Diffusion-Enhanced Generative Retriever using Constrained Decoding"**. _Shanbao Qiao et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.638)\]
   5. GDR: **"Generative Dense Retrieval: Memory Can Be a Burden"**. _Peiwen Yuan et al._ arXiv, 2024. \[[Paper](https://arxiv.org/abs/2401.10487)\]
   6. Self-Retrieval: **"Self-Retrieval: Building an Information Retrieval System with One Large Language Model"**. _Qiaoyu Tang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2403.00801)\]
-
 #### Document Identifier Design
 - ##### **Numeric-based**
   1. DSI: **"Transformer Memory as a Differentiable Search Index"**. _Yi Tay et al._ NeurIPS 2022. \[[Paper](http://papers.nips.cc/paper_files/paper/2022/hash/892840a6123b5ec99ebaab8be1530fba-Abstract-Conference.html)\]
@@ -97,7 +89,6 @@ This is the collection of papers related to generative information retrieval. Th
   8. SE-DSI: **"Semantic-Enhanced Differentiable Search Index Inspired by Learning Strategies"**. _Yubao Tang et al._ KDD 2023. \[[Paper](https://doi.org/10.1145/3580305.3599903)\]
   9. NOVO: **"NOVO: Learnable and Interpretable Document Identifiers for Model-Based IR"**. _Zihan Wang et al._ CIKM 2023. \[[Paper](https://doi.org/10.1145/3583780.3614993)\]
   10. GLEN: **"GLEN: Generative Retrieval via Lexical Index Learning"**. _Sunkyung Lee et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.477)\]
-
 #### Incremental Learning
 1. DSI++: **"DSI++: Updating Transformer Memory with New Documents"**. _Sanket Mehta Vaibhav et al._ arXiv 2022. \[[Paper](https://arxiv.org/abs/2212.09744)\]
 2. DynamicIR: **"Exploring the Practicality of Generative Retrieval on Dynamic Corpora"**. _Soyoung Yoon et al._ 2023. \[[Paper](https://api.semanticscholar.org/CorpusID:258967398)\]
@@ -105,7 +96,6 @@ This is the collection of papers related to generative information retrieval. Th
 4. IncDSI: **"IncDSI: Incrementally Updatable Document Retrieval"**. _Varsha Kishore et al._ ICML 2023. \[[Paper](https://proceedings.mlr.press/v202/kishore23a.html)\]
 5. CLEVER: **"Continual Learning for Generative Retrieval over Dynamic Corpora"**. _Jiangui Chen et al._ CIKM 2023. \[[Paper](https://doi.org/10.1145/3583780.3614993)\]
 6. CorpusBrain++: **"CorpusBrain++: A Continual Generative Pre-Training Framework for Knowledge-Intensive Language Tasks"**. _Jiafeng Guo et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2402.16767)\]
-
 #### Downstream Task Adaptation
 - ##### **Separate Training**
   1. GERE: **"GERE: Generative Evidence Retrieval for Fact Verification"**. _Jiangui Chen et al._ arXiv 2022. \[[Paper](https://arxiv.org/abs/2204.05511)\]
@@ -123,7 +113,6 @@ This is the collection of papers related to generative information retrieval. Th
   1. IRGen: **"IRGen: Generative Modeling for Image Retrieval"**. _Yidan Zhang et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2303.10126)\]
   2. GeMKR: **"Generative Multi-Modal Knowledge Retrieval with Large Language Models"**. _Xinwei Long et al._ arXiv, 2024. \[[Paper](https://doi.org/10.48550/arXiv.2401.08206)\]
   3. GRACE: **"Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond"**. _Yongqi Li et al._ arXiv, 2024. \[[Paper](https://doi.org/10.48550/arXiv.2402.10805)\]
-
 #### Generative Recommender Systems
 1. P5: **"Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)"**. _Shijie Geng et al._ RecSys '22. \[[Paper](https://doi.org/10.1145/3523227.3546767)\]
 2. GPT4Rec: **"GPT4Rec: A generative framework for personalized recommendation and user interests interpretation"**. _Jinming Li et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2304.03879)\]
@@ -132,9 +121,7 @@ This is the collection of papers related to generative information retrieval. Th
 5. IDGenRec: **"Towards LLM-RecSys Alignment with Textual ID Learning"**. _Juntao Tan et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2403.19021)\]
 6. LCRec: **"Adapting large language models by integrating collaborative semantics for recommendation"**. _Bowen Zheng et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2311.09049)\]
 7. ColaRec: **"Enhanced Generative Recommendation via Content and Collaboration Integration"**. _Yidan Wang et al._ 2024. \[[Paper](https://api.semanticscholar.org/CorpusID:268723798)\]
-
 ### Reliable Response Generation
-
 #### Internal Knowledge Memorization
 - ##### **Structural Design**
   1. GPT3: **"Language models are few-shot learners"**. _Tom B. Brown et al._ NeurIPS 2020. \[[Paper](https://proceedings.neurips.cc/paper/2020/hash/f3f22cb8d9ad9a4f0e802f456cc8c862-Abstract.html)\]
@@ -155,7 +142,6 @@ This is the collection of papers related to generative information retrieval. Th
   4. KE: **"Editing Factual Knowledge in Language Models"**. _Nicola De Cao et al._ EMNLP 2021. \[[Paper](https://doi.org/10.18653/v1/2021.emnlp-main.522)\]
   5. MEND: **"Fast Model Editing at Scale"**. _Eric Mitchell et al._ ICLR 2022. \[[Paper](https://openreview.net/forum?id=0DcZxeWfOPt)\]
   6. ROME: **"Locating and Editing Factual Associations in GPT"**. _Kevin Meng et al._ NeurIPS 2022. \[[Paper](http://papers.nips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html)\]
-
 #### External Knowledge Augmentation
 - ##### **Retrieval Augmentation**
   1. RAG: **"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"**. _Patrick S. H. Lewis et al._ NeurIPS 2020. \[[Paper](https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html)\]
@@ -182,7 +168,6 @@ This is the collection of papers related to generative information retrieval. Th
   8. AssistGPT: **"A General Multi-modal Assistant that can Plan, Execute, Inspect, and Learn"**. _Difei Gao et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.08640)\]
   9. HuggingGPT: **"Solving AI Tasks with ChatGPT and its Friends in Hugging Face"**. _Yongliang Shen et al._ NeurIPS 2023. \[[Paper](http://papers.nips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html)\]
   10. Visual ChatGPT: **"Talking, Drawing and Editing with Visual Foundation Models"**. _Chenfei Wu et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2303.04671)\]
-
 #### Generating Response with Citation
 - ##### **Direct Generating Citation**
   1. According-to Prompting: **"According to ...: Prompting Language Models Improves Quoting from Pre-Training Data"**. _Orion Weller et al._ EACL 2024. \[[Paper](https://aclanthology.org/2024.eacl-long.140)\]
@@ -200,7 +185,6 @@ This is the collection of papers related to generative information retrieval. Th
   6. VTG: **"Towards Verifiable Text Generation with Evolving Memory and Self-Reflection"**. _Hao Sun et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2312.09075)\]
   7. CEG: **"Citation-Enhanced Generation for LLM-based Chatbots"**. _Weitao Li et al._ arXiv, 2024. \[[Paper](https://doi.org/10.48550/arXiv.2402.16063)\]
   8. APO: **"Improving Attributed Text Generation of Large Language Models via Preference Learning"**. _Dongfang Li et al._ arXiv, 2024. \[[Paper](https://doi.org/10.48550/arXiv.2403.18381)\]
-
 #### Personal Information Assistant
 - ##### **Personalized Dialogue**
   1. **"Personalizing Dialogue Agents: I have a dog, do you have pets too?"** _Saizheng Zhang et al._ ACL 2018. \[[Paper](https://aclanthology.org/P18-1205/)\]
@@ -215,9 +199,7 @@ This is the collection of papers related to generative information retrieval. Th
     3. Pharmacygpt: **"The ai pharmacist"**. _Zhengliang Liu et al._ arXiv, 2023. \[[Paper](https://arxiv.org/abs/2307.10432)\]
     4. Radiology-Llama2: **"Best-in-Class Large Language Model for Radiology"**. _Zhengliang Liu et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2309.06419)\]
     5. EduChat: **"A large-scale language model-based chatbot system for intelligent education"**. _Yuhao Dan et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2308.02773)\]
-
 ### Evaluation
-
 #### Generative Document Retrieval
 - ##### **Metrics**
   1. MRR: **"Mean Reciprocal Rank"**. _Nick Craswell_. Encyclopedia of Database Systems, 2009. \[[Paper](https://doi.org/10.1007/978-0-387-39940-9_488)\]
@@ -232,7 +214,6 @@ This is the collection of papers related to generative information retrieval. Th
   1. **"Understanding Differential Search Index for Text Retrieval"**. _Xiaoyang Chen et al._ ACL 2023. \[[Paper](https://doi.org/10.18653/v1/2023.findings-acl.681)\]
   2. **"How Does Generative Retrieval Scale to Millions of Passages?"**. _Ronak Pradeep et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.83)\]
   3. **"On the Robustness of Generative Retrieval Models: An Out-of-Distribution Perspective"**. _Yu-An Liu et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.12756)\]
-
 #### Reliable Response Generation
 - ##### **Metrics**
   1. BLEU: **"Bleu: a Method for Automatic Evaluation of Machine Translation"**. _Kishore Papineni et al._ ACL 2002. \[[Paper](https://aclanthology.org/P02-1040/)\]
@@ -241,7 +222,6 @@ This is the collection of papers related to generative information retrieval. Th
   4. BLEURT: **"BLEURT: Learning Robust Metrics for Text Generation"**. _Thibault Sellam et al._ ACL 2020. \[[Paper](https://aclanthology.org/2020.acl-main.704)\]
   5. GPTScore: **"GPTScore: Evaluate as You Desire"**. _Jinlan Fu et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2302.04166)\]
   6. FActScore: **"FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation"**. _Sewon Min et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.741)\]
-
 - ##### **Benchmarks**
   1. MMLU: **"Measuring Massive Multitask Language Understanding"**. _Dan Hendrycks et al._ ICLR 2021. \[[Paper](https://openreview.net/forum?id=d7KBjmI3GmQ)\]
   2. BIG-bench: **"Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"**. _Aarohi Srivastava et al._ arXiv, 2022. \[[Paper](https://doi.org/10.48550/arXiv.2206.04615)\]
@@ -256,37 +236,29 @@ This is the collection of papers related to generative information retrieval. Th
   11. SafetyBench: **"SafetyBench: Evaluating the Safety of Large Language Models with Multiple Choice Questions"**. _Zhexin Zhang et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2309.07045)\]
   12. TrustGPT: **"TrustGPT: A Benchmark for Trustworthy and Responsible Large Language Models"**. _Yue Huang et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.11507)\]
   13. TrustLLM: **"TrustLLM: Trustworthiness in Large Language Models"**. _Lichao Sun et al._ arXiv, 2024. \[[Paper](https://doi.org/10.48550/arXiv.2401.05561)\]
-
 ### Challenges and Prospects
-
 #### Generative Document Retrieval
 - **Scalability**
 - **Dynamic Corpora**
 - **Document Representation**
 - **Efficiency**
-
 #### Reliable Response Generation
 - **Accuracy and Factuality**
 - **Real-time Property**
 - **Bias and Fairness**
 - **Privacy and Security**
-
 #### Unified Framework
 - **Unified Framework for Retrieval and Generation**
 - **Towards End2end Framework for Various IR Tasks**
 
-
 ## 💡 Other Resources
-
 ### Awesome Lists
 1. **awesome-generative-information-retrieval**. [[Github](https://github.com/gabriben/awesome-generative-information-retrieval)]
 2. **awesome-generative-retrieval-models**. [[Github](https://github.com/Chriskuei/awesome-generative-retrieval-models)]
-
 ### Workshops
 1. **"Gen-IR@SIGIR 2023: The First Workshop on Generative Information Retrieval"**. _Gabriel Bénédict et al._ SIGIR 23. [[link](https://coda.io/@sigir/gen-ir)]
 2. **"The 1st Workshop on Recommendation with Generative Models"**. _Wenjie Wang et al._ CIKM 23. [[link](https://rgm-cikm23.github.io/)]
 3. **"Gen-IR@SIGIR 2024: The Second Workshop on Generative Information Retrieval"**. _Gabriel Bénédict et al._ SIGIR 24. [[link](https://coda.io/@sigir/gen-ir)]
-
 ### Surveys
 1. **"A Survey of Large Language Models"**. _Wayne Xin Zhao et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2303.18223)\]
 3. **"A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT"**. _Yihan Cao et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2303.04226)\]
@@ -300,23 +272,18 @@ This is the collection of papers related to generative information retrieval. Th
 11. **"A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions"**. _Lei Huang et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2311.05232)\]
 12. **"A Survey of Large Language Models Attribution"**. _Dongfang Li et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2311.03731)\]
 14. **"Retrieval-Augmented Generation for Large Language Models: A Survey"**. _Yunfan Gao et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2312.10997)\]
-
 ### Opining Papers
-
 1. **"Rethinking Search: Making Domain Experts out of Dilettantes"**. _Donald Metzler et al._ SIGIR Forum 2021. \[[Paper](https://arxiv.org/pdf/2105.02274.pdf)\]
 2. **"Large Search Model: Redefining Search Stack in the Era of LLMs"**. _Liang Wang et al._ SIGIR Forum 2023. \[[Paper](https://doi.org/10.1145/3642979.3643006)\]
 3. **"Information Retrieval Meets Large Language Models: A Strategic Report from Chinese IR Community"**. _Qingyao Ai et al._ arXiv 2023. \[[Paper](https://arxiv.org/pdf/2307.09751.pdf)\]
 
 ## 🌟 Citation
-
 Please kindly cite our paper if helps your research:
 ```BibTex
 
 ```
-
 ## License
 This project is released under the [MIT License](https://github.com/RUC-NLPIR/GenIR-Survey/blob/main/LICENSE).
-
 ## Contact
 Feel free to contact us if you find a mistake or have any advice. Email: xiaoxi_li@ruc.edu.cn and dou@ruc.edu.cn.
 
