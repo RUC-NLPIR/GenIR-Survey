@@ -6,70 +6,51 @@ This is the collection of papers related to generative information retrieval. Th
 #### **Exploring IR Evolution: From Matching to Generation**
 
 <p align="center">
-	<img src="assets/Overview.png" width = 100%>
+	<img src="assets/Overview.png" width = 90%>
 </p>
-
 
 
 ## 📋 Table of Contents
 
 - [Generative Document Retrieval](#generative-retrieval)
-
     - [Model Training and Structure](#model-training-and-structure)
       - [Training](#training)
       - [Structure](#structure)
-
       - [Document Identifier Design](#document-identifier-design)
         - [Numeric-based](#numeric-based)
         - [Text-based](#text-based)
-
     - [Incremental Learning](#incremental-learning)
         - [Downstream Task Adaptation](#downstream-task-adaptation)
           - [Separate Training](#separate-training)
           - [Joint Training](#joint-training)
           - [Multi-Modal](#multi-modal)
-
     - [Generative Recommender Systems](#generative-recommender-systems)
-
 - [Reliable Response Generation](#reliable-response-generation)
-
   - [Internal Knowledge Memorization](#internal-knowledge-memorization)
-
     - [Structural Design](#structural-design)
-
     - [Training and Inference](#training-and-inference)
   - [Knowledge Updating](#knowledge-updating)
-
   - [External Knowledge Augmentation](#external-knowledge-augmentation)
     - [Retrieval Augmentation](#retrieval-augmentation)
     - [Tool Augmentation](#tool-augmentation)
   - [Generating Response with Citation](#generating-response-with-citation)
     - [Direct Generating Citation](#direct-generating-citation)
     - [Retrieval-based Citation](#retrieval-based-citation)
-
   - [Personal Information Assistant](#personal-information-assistant)
     - [Personalized Dialogue](#personalized-dialogue)
     - [Domain-specific Personalization](#domain-specific-personalization)
-
 - [Evaluation](#evaluation)
-
     - [Generative Document Retrieval](#eval-gr)
       - [Metrics](#gr-metrics)
       - [Benchmarks](#gr-benchmarks)
       - [Analysis](#gr-analysis)
-
     - [Reliable Response Generation](#eval-response)
       - [Metrics](#response-metrics)
       - [Benchmarks](#response-benchmarks)
-
 - [Challenges and Prospects](#challenges-and-prospects)
-
     - [Generative Document Retrieval](#challenge-gr)
-
     - [Reliable Response Generation](#challenge-response)
-
     - [Unified Framework](#unified-framework)
-
 
 
 ## 📄 Paper List
@@ -320,7 +301,6 @@ This is the collection of papers related to generative information retrieval. Th
 2. Towards End2end Framework for Various IR Tasks
 
 
-
 ## 💡 Other Resources
 
 ### Awesome Lists
@@ -331,7 +311,6 @@ This is the collection of papers related to generative information retrieval. Th
 ### Papers
 
 1. "Information Retrieval Meets Large Language Models: A Strategic Report from Chinese IR Community", _Ai et al._, arXiv 2023. \[[Paper](https://arxiv.org/pdf/2307.09751.pdf)\]
-
 
 
 ## 🌟 Citation
