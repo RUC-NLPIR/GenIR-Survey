@@ -261,9 +261,10 @@ This repository contains a curated collection of research papers on generative i
 
 1. MS MARCO: **"MS MARCO: A Human Generated Machine Reading Comprehension Dataset"**. _Tri Nguyen et al._ CoCoNIPS 2016. \[[Paper](https://ceur-ws.org/Vol-1773/CoCoNIPS_2016_paper9.pdf)\]
 2. NQ: **"Natural questions: a benchmark for question answering research"**. _Tom Kwiatkowski et al._ TACL, 2019. \[[Paper](https://www.transacl.org/ojs/index.php/tacl/article/view/1672)\]
-3. TriviaQA: **"T-rex: A large scale alignment of natural language with knowledge base triples"**. _Hady Elsahar et al._ LREC, 2018. \[[Paper](https://www.aclweb.org/anthology/L18-1621/)\]
+3. TriviaQA: **"TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension"**. _Hady Elsahar et al._ LREC, 2018. \[[Paper](https://aclanthology.org/P17-1147/)\]
 4. KILT: **"KILT: a Benchmark for Knowledge Intensive Language Tasks"**. _Fabio Petroni et al._ NAACL 2021. \[[Paper](https://aclanthology.org/2021.naacl-main.200)\]
-5. TREC DL 19 & 20: **"Overview of the TREC 2019 deep learning track"**. _Nick Craswell et al._ arXiv 2020 & 2021. \[[Paper 2019](https://arxiv.org/abs/2003.07820), [Paper 2020](https://arxiv.org/abs/2102.07662)\]
+5. TREC DL 2019: **"Overview of the TREC 2019 deep learning track"**. _Nick Craswell et al._ arXiv 2020. \[[Paper](https://arxiv.org/abs/2003.07820)\]
+6. TREC DL 2020: **"Overview of the TREC 2020 deep learning track"**. _Nick Craswell et al._ arXiv 2021. \[[Paper](https://arxiv.org/abs/2102.07662)\]
 
 - ##### **Analysis**
 
