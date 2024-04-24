@@ -269,14 +269,14 @@ This repository contains a curated collection of research papers on generative i
 
 1. **"Understanding Differential Search Index for Text Retrieval"**. _Xiaoyang Chen et al._ ACL 2023. \[[Paper](https://doi.org/10.18653/v1/2023.findings-acl.681)\]
 2. **"How Does Generative Retrieval Scale to Millions of Passages?"**. _Ronak Pradeep et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.83)\]
-3. **"On the Robustness of Generative Retrieval Models: An Out-of-Distribution Perspective"**. _Yu-An Liu et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.12756)\]
+3. **"On the Robustness of Generative Retrieval Models: An Out-of-Distribution Perspective"**. _Yu-An Liu et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.12756)\]
 
 #### Reliable Response Generation
 
 - ##### **Metrics**
 
 1. BLEU: **"Bleu: a Method for Automatic Evaluation of Machine Translation"**. _Kishore Papineni et al._ ACL 2002. \[[Paper](https://aclanthology.org/P02-1040/)\]
-2. ROUGE: **"ROUGE: A Package for Automatic Evaluation of Summaries"**. _Chin-Yew Lin_. ACL, 2004. \[[Paper](https://api.semanticscholar.org/CorpusID:964287)\]
+2. ROUGE: **"ROUGE: A Package for Automatic Evaluation of Summaries"**. _Chin-Yew Lin_. ACL 2004. \[[Paper](https://api.semanticscholar.org/CorpusID:964287)\]
 3. BERTScore: **"BERTScore: Evaluating Text Generation with BERT"**. _Tianyi Zhang et al._ ICLR 2020. \[[Paper](https://openreview.net/forum?id=SkeHuCVFDr)\]
 4. BLEURT: **"BLEURT: Learning Robust Metrics for Text Generation"**. _Thibault Sellam et al._ ACL 2020. \[[Paper](https://aclanthology.org/2020.acl-main.704)\]
 5. GPTScore: **"GPTScore: Evaluate as You Desire"**. _Jinlan Fu et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2302.04166)\]
@@ -293,10 +293,10 @@ This repository contains a curated collection of research papers on generative i
 7. ALCE: **"Auto Search Indexer for End-to-End Document Retrieval"**. _Tianchi Yang et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.464)\]
 8. HaluEval: **"A Large-Scale Hallucination Evaluation Benchmark for Large Language Models"**. _Junyi Li et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.397)\]
 9. RealTime QA: **"RealTime QA: What's the Answer Right Now?"**. _Jungo Kasai et al._ NeurIPS 2023. \[[Paper](http://papers.nips.cc/paper_files/paper/2023/hash/9941624ef7f867a502732b5154d30cb7-Abstract-Datasets_and_Benchmarks.html)\]
-10. FreshQA: **"FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation"**. _Tu Vu et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2310.03214)\]
-11. SafetyBench: **"SafetyBench: Evaluating the Safety of Large Language Models with Multiple Choice Questions"**. _Zhexin Zhang et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2309.07045)\]
-12. TrustGPT: **"TrustGPT: A Benchmark for Trustworthy and Responsible Large Language Models"**. _Yue Huang et al._ arXiv, 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.11507)\]
-13. TrustLLM: **"TrustLLM: Trustworthiness in Large Language Models"**. _Lichao Sun et al._ arXiv, 2024. \[[Paper](https://doi.org/10.48550/arXiv.2401.05561)\]
+10. FreshQA: **"FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation"**. _Tu Vu et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2310.03214)\]
+11. SafetyBench: **"SafetyBench: Evaluating the Safety of Large Language Models with Multiple Choice Questions"**. _Zhexin Zhang et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2309.07045)\]
+12. TrustGPT: **"TrustGPT: A Benchmark for Trustworthy and Responsible Large Language Models"**. _Yue Huang et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.11507)\]
+13. TrustLLM: **"TrustLLM: Trustworthiness in Large Language Models"**. _Lichao Sun et al._ arXiv 2024. \[[Paper](https://doi.org/10.48550/arXiv.2401.05561)\]
 
 ### Challenges and Prospects
 
@@ -328,9 +328,9 @@ This repository contains a curated collection of research papers on generative i
 
 ### Workshops
 
-1. **"Gen-IR@SIGIR 2023: The First Workshop on Generative Information Retrieval"**. _Gabriel Bénédict et al._ SIGIR 23. [[link](https://coda.io/@sigir/gen-ir)]
-2. **"The 1st Workshop on Recommendation with Generative Models"**. _Wenjie Wang et al._ CIKM 23. [[link](https://rgm-cikm23.github.io/)]
-3. **"Gen-IR@SIGIR 2024: The Second Workshop on Generative Information Retrieval"**. _Gabriel Bénédict et al._ SIGIR 24. [[link](https://coda.io/@sigir/gen-ir)]
+1. **"Gen-IR@SIGIR 2023: The First Workshop on Generative Information Retrieval"**. _Gabriel Bénédict et al._ SIGIR 2023. [[Link](https://coda.io/@sigir/gen-ir)]
+2. **"The 1st Workshop on Recommendation with Generative Models"**. _Wenjie Wang et al._ CIKM 2023. [[Link](https://rgm-cikm23.github.io/)]
+3. **"Gen-IR@SIGIR 2024: The Second Workshop on Generative Information Retrieval"**. _Gabriel Bénédict et al._ SIGIR 2024. [[Link](https://coda.io/@sigir/gen-ir)]
 
 ### Surveys
 
@@ -345,13 +345,14 @@ This repository contains a curated collection of research papers on generative i
 9. **"A Survey of Knowledge Editing of Neural Networks"**. _Vittorio Mazzia et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2310.19704)\]
 10. **"A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions"**. _Lei Huang et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2311.05232)\]
 11. **"A Survey of Large Language Models Attribution"**. _Dongfang Li et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2311.03731)\]
-12. **"Retrieval-Augmented Generation for Large Language Models: A Survey"**. _Yunfan Gao et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2312.10997)\]
+12. **"Retrieval-Augmented Generation for Large Language Models: A Survey"**. _Yunfan Gao et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2312.10997)\]
+13. **"Unifying Bias and Unfairness in Information Retrieval: A Survey of Challenges and Opportunities with Large Language Models"**. _Sunhao Dai et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2404.11457)\]
 
 ### Opining Papers
 
-1. **"Rethinking Search: Making Domain Experts out of Dilettantes"**. _Donald Metzler et al._ SIGIR Forum 2021. \[[Paper](https://arxiv.org/pdf/2105.02274.pdf)\]
+1. **"Rethinking Search: Making Domain Experts out of Dilettantes"**. _Donald Metzler et al._ SIGIR Forum 2021. \[[Paper](https://doi.org/10.1145/3476415.3476428)\]
 2. **"Large Search Model: Redefining Search Stack in the Era of LLMs"**. _Liang Wang et al._ SIGIR Forum 2023. \[[Paper](https://doi.org/10.1145/3642979.3643006)\]
-3. **"Information Retrieval Meets Large Language Models: A Strategic Report from Chinese IR Community"**. _Qingyao Ai et al._ arXiv 2023. \[[Paper](https://arxiv.org/pdf/2307.09751.pdf)\]
+3. **"Information Retrieval Meets Large Language Models: A Strategic Report from Chinese IR Community"**. _Qingyao Ai et al._ AI Open, 2023. \[[Paper](https://doi.org/10.1016/j.aiopen.2023.08.001)\]
 
 ## 🌟 Citation
 
