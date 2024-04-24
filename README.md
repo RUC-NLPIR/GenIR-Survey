@@ -1,6 +1,6 @@
 # GenIR-Survey
 
-This repository contains a curated collection of research papers on generative information retrieval. These papers are organized according to the categorizations outlined in our survey "[From Matching to Generation: A Survey on Generative Information Retrieval](https://arxiv.org/abs/2404.xxxxxx)".
+This repository contains a curated collection of research papers on generative information retrieval. These papers are organized according to the categorizations outlined in our survey "[From Matching to Generation: A Survey on Generative Information Retrieval](https://arxiv.org/abs/2404.14851)".
 
 > **Short Abstract:** This survey explores generative information retrieval (GenIR), which marks a paradigm shift from traditional matching-based methods to generative approaches. We divide current GenIR research into two main categories: (1) generative document retrieval, which involves retrieval by directly generating document identifiers, without relying on large-scale indexing, and (2) reliable response generation, which uses language models to generate user-centric and reliable responses, directly meets the users' information need. This review aims to offer a comprehensive reference for researchers in the GenIR field, encouraging further development in this area.
 
