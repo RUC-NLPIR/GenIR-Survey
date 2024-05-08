@@ -267,6 +267,7 @@ This repository contains a curated collection of research papers on generative i
 4. KILT: **"KILT: a Benchmark for Knowledge Intensive Language Tasks"**. _Fabio Petroni et al._ NAACL 2021. \[[Paper](https://aclanthology.org/2021.naacl-main.200)\]
 5. TREC DL 2019: **"Overview of the TREC 2019 deep learning track"**. _Nick Craswell et al._ arXiv 2020. \[[Paper](https://arxiv.org/abs/2003.07820)\]
 6. TREC DL 2020: **"Overview of the TREC 2020 deep learning track"**. _Nick Craswell et al._ arXiv 2021. \[[Paper](https://arxiv.org/abs/2102.07662)\]
+7. ExcluIR: **"ExcluIR: Exclusionary Neural Information Retrieval"**. _Wenhao Zhang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2404.17288)\]
 
 - ##### **Analysis**
 
