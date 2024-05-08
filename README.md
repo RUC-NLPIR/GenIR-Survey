@@ -76,6 +76,7 @@ This repository contains a curated collection of research papers on generative i
 4. DiffusionRet: **"Diffusion-Enhanced Generative Retriever using Constrained Decoding"**. _Shanbao Qiao et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.638)\]
 5. GDR: **"Generative Dense Retrieval: Memory Can Be a Burden"**. _Peiwen Yuan et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2401.10487)\]
 6. Self-Retrieval: **"Self-Retrieval: Building an Information Retrieval System with One Large Language Model"**. _Qiaoyu Tang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2403.00801)\]
+7. DE-DSI: **"De-DSI: Decentralised Differentiable Search Index"**. _Petru Neague et al._ EuroMLSys 2024. \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3642970.3655837)\]
 
 #### Document Identifier Design
 
@@ -89,7 +90,8 @@ This repository contains a curated collection of research papers on generative i
 6. MEVI: **"Model-enhanced Vector Index"**. _Hailin Zhang et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2309.13335)\]
 7. LMIndexer: **"Language Models As Semantic Indexers"**. _Bowen Jin et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2310.07815)\]
 8. ASI: **"Auto Search Indexer for End-to-End Document Retrieval"**. _Tianchi Yang et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.464)\]
-9. RIPOR: **"Scalable and Effective Generative Information Retrieval"**. _Hansi Zeng et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2311.09134)\]
+9. RIPOR: **"Scalable and Effective Generative Information Retrieval"**. _Hansi Zeng et al._ WWW 2024. \[[Paper](https://doi.org/10.48550/arXiv.2311.09134)\]
+10. PAG: **"Planning Ahead in Generative Retrieval: Guiding Autoregressive Generation through Simultaneous Decoding"**. _Hansi Zeng et al._ SIGIR 2024. \[[Paper](https://doi.org/10.48550/arXiv.2404.14600)\]
 
 - ##### **Text-based Identifier**
 
