@@ -92,6 +92,7 @@ This repository contains a curated collection of research papers on generative i
 8. ASI: **"Auto Search Indexer for End-to-End Document Retrieval"**. _Tianchi Yang et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.464)\]
 9. RIPOR: **"Scalable and Effective Generative Information Retrieval"**. _Hansi Zeng et al._ WWW 2024. \[[Paper](https://doi.org/10.48550/arXiv.2311.09134)\]
 10. PAG: **"Planning Ahead in Generative Retrieval: Guiding Autoregressive Generation through Simultaneous Decoding"**. _Hansi Zeng et al._ SIGIR 2024. \[[Paper](https://doi.org/10.48550/arXiv.2404.14600)\]
+10. ASI++: **"ASI++: Towards Distributionally Balanced End-to-End Generative Retrieval"**. _Yuxuan Liu et al._ arXiv 2024. \[[Paper](https://doi.org/10.48550/arXiv.2405.14280)\]
 
 - ##### **Text-based Identifier**
 
