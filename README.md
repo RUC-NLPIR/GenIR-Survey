@@ -67,6 +67,8 @@ This repository contains a curated collection of research papers on generative i
 7. GenRRL: **"Enhancing Generative Retrieval with Reinforcement Learning from Relevance Feedback"**. _Yujia Zhou et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.768)\]
 8. DGR: **"Distillation Enhanced Generative Retrieval"**. _Peiwen Yuan et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2402.10769)\]
 9. ListGR: **"Listwise Generative Retrieval Models via a Sequential Learning Process"**. _Yubao Tang et al._ ACM TOIS, 2024. \[[Paper](https://arxiv.org/abs/2403.12499v1)\]
+10. LLMGR: **"LLMGR: Large Language Model-based Generative Retrieval in Alipay Search"**. _Wei Chen et al._ SIGIR 2024. \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3661364)\]
+11. BootRet: **"Bootstrapped Pre-training with Dynamic Identifier Prediction for Generative Retrieval"**. _Yubao Tang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2407.11504)\]
 
 - ##### **Structure**
 
@@ -77,6 +79,7 @@ This repository contains a curated collection of research papers on generative i
 5. GDR: **"Generative Dense Retrieval: Memory Can Be a Burden"**. _Peiwen Yuan et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2401.10487)\]
 6. Self-Retrieval: **"Self-Retrieval: Building an Information Retrieval System with One Large Language Model"**. _Qiaoyu Tang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2403.00801)\]
 7. DE-DSI: **"De-DSI: Decentralised Differentiable Search Index"**. _Petru Neague et al._ EuroMLSys 2024. \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3642970.3655837)\]
+8. PIXAR: **"Scaling the Vocabulary of Non-autoregressive Models for Efficient Generative Retrieval"**. _Ravisri Valluri et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2406.06739)\]
 
 #### Document Identifier Design
 
@@ -115,6 +118,7 @@ This repository contains a curated collection of research papers on generative i
 4. IncDSI: **"IncDSI: Incrementally Updatable Document Retrieval"**. _Varsha Kishore et al._ ICML 2023. \[[Paper](https://proceedings.mlr.press/v202/kishore23a.html)\]
 5. CLEVER: **"Continual Learning for Generative Retrieval over Dynamic Corpora"**. _Jiangui Chen et al._ CIKM 2023. \[[Paper](https://doi.org/10.1145/3583780.3614993)\]
 6. CorpusBrain++: **"CorpusBrain++: A Continual Generative Pre-Training Framework for Knowledge-Intensive Language Tasks"**. _Jiafeng Guo et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2402.16767)\]
+7. PromptDSI: **"PromptDSI: Prompt-based Rehearsal-free Instance-wise Incremental Learning for Document Retrieval"**. _Tuan-Luc Huynh et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2406.12593)\]
 
 #### Downstream Task Adaptation
 
@@ -139,6 +143,8 @@ This repository contains a curated collection of research papers on generative i
 1. IRGen: **"IRGen: Generative Modeling for Image Retrieval"**. _Yidan Zhang et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2303.10126)\]
 2. GeMKR: **"Generative Multi-Modal Knowledge Retrieval with Large Language Models"**. _Xinwei Long et al._ AAAI 2024. \[[Paper](https://doi.org/10.48550/arXiv.2401.08206)\]
 3. GRACE: **"Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond"**. _Yongqi Li et al._ arXiv 2024. \[[Paper](https://doi.org/10.48550/arXiv.2402.10805)\]
+4. AVG: **"Revolutionizing Text-to-Image Retrieval as Autoregressive Token-to-Voken Generation"**. _Yongqi Li et al._ arXiv 2024. \[[Paper](https://doi.org/10.48550/arXiv.2407.17274)\]
+5. T2VIndexer: **"T2VIndexer: A Generative Video Indexer for Efficient Text-Video Retrieval"**. _Yili Li et al._ MM 2024. \[[Paper](https://openreview.net/forum?id=BStS35nzxZ)\]
 
 #### Generative Recommender Systems
 
