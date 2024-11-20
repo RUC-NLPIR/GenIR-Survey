@@ -69,17 +69,19 @@ This repository contains a curated collection of research papers on generative i
 9. ListGR: **"Listwise Generative Retrieval Models via a Sequential Learning Process"**. _Yubao Tang et al._ ACM TOIS, 2024. \[[Paper](https://arxiv.org/abs/2403.12499v1)\]
 10. LLMGR: **"LLMGR: Large Language Model-based Generative Retrieval in Alipay Search"**. _Wei Chen et al._ SIGIR 2024. \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3626772.3661364)\]
 11. BootRet: **"Bootstrapped Pre-training with Dynamic Identifier Prediction for Generative Retrieval"**. _Yubao Tang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2407.11504)\]
+12. GR2: **"Generative Retrieval Meets Multi-Graded Relevance"**. _Yubao Tang et al._ NeurIPS 2024. \[[Paper](https://arxiv.org/abs/2409.18409)\]
+13. ROGER: **"ROGER: Ranking-Oriented Generative Retrieval"**. _Yujia Zhou et al._ TOIS 2024. \[[Paper](https://dl.acm.org/doi/abs/10.1145/3603167)\]
 
 - ##### **Structure**
 
 1. TOME: **"TOME: A Two-stage Approach for Model-based Retrieval"**. _Ruiyang Ren et al._ ACL 2023. \[[Paper](https://doi.org/10.18653/v1/2023.acl-long.336)\]
 2. NP Decoding: **"Nonparametric Decoding for Generative Retrieval"**. _Hyunji Lee et al._ ACL 2023. \[[Paper](https://doi.org/10.18653/v1/2023.findings-acl.801)\]
-3. MEVI: **"Model-enhanced Vector Index"**. _Hailin Zhang et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2309.13335)\]
+3. MEVI: **"Model-enhanced Vector Index"**. _Hailin Zhang et al._ NeurIPS 2023. \[[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/ac112e8ffc4e5b9ece32070440a8ca43-Paper-Conference.pdf)\]
 4. DiffusionRet: **"Diffusion-Enhanced Generative Retriever using Constrained Decoding"**. _Shanbao Qiao et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.638)\]
 5. GDR: **"Generative Dense Retrieval: Memory Can Be a Burden"**. _Peiwen Yuan et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2401.10487)\]
 6. Self-Retrieval: **"Self-Retrieval: Building an Information Retrieval System with One Large Language Model"**. _Qiaoyu Tang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2403.00801)\]
 7. DE-DSI: **"De-DSI: Decentralised Differentiable Search Index"**. _Petru Neague et al._ EuroMLSys 2024. \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3642970.3655837)\]
-8. PIXAR: **"Scaling the Vocabulary of Non-autoregressive Models for Efficient Generative Retrieval"**. _Ravisri Valluri et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2406.06739)\]
+8. PIXAR: **"Scaling the Vocabulary of Non-autoregressive Models for Efficient Generative Retrieval"**. _Ravisri Valluri et al._ ICML 2024 Workshop. \[[Paper](https://icml.cc/virtual/2024/37024)\]
 
 #### Document Identifier Design
 
@@ -88,14 +90,15 @@ This repository contains a curated collection of research papers on generative i
 1. DSI: **"Transformer Memory as a Differentiable Search Index"**. _Yi Tay et al._ NeurIPS 2022. \[[Paper](http://papers.nips.cc/paper_files/paper/2022/hash/892840a6123b5ec99ebaab8be1530fba-Abstract-Conference.html)\]
 2. DynamicRetriever: **"DynamicRetriever: A Pre-trained Model-based IR System Without an Explicit Index"**. _Yujia Zhou et al._ Mach. Intell. Res., 2023. \[[Paper](https://doi.org/10.1007/s11633-022-1373-9)\]
 3. Ultron: **"Ultron: An Ultimate Retriever on Corpus with a Model-based Indexer"**. _Yujia Zhou et al._ arXiv 2022. \[[Paper](https://arxiv.org/abs/2208.09257)\]
-4. GenRet: **"Learning to Tokenize for Generative Retrieval"**. _Weiwei Sun et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2304.04171)\]
-5. Tied-Atomic: **"Generative Retrieval as Dense Retrieval"**. _Thong Nguyen et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2306.11397)\]
-6. MEVI: **"Model-enhanced Vector Index"**. _Hailin Zhang et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2309.13335)\]
+4. GenRet: **"Learning to Tokenize for Generative Retrieval"**. _Weiwei Sun et al._ NeurIPS 2023. \[[Paper](https://doi.org/10.48550/arXiv.2304.04171)\]
+5. Tied-Atomic: **"Generative Retrieval as Dense Retrieval"**. _Thong Nguyen et al._ EACL 2023. \[[Paper](https://aclanthology.org/2024.eacl-long.173/)\]
+6. MEVI: **"Model-enhanced Vector Index"**. _Hailin Zhang et al._ NeurIPS 2023. \[[Paper](https://arxiv.org/abs/2309.13335)\]
 7. LMIndexer: **"Language Models As Semantic Indexers"**. _Bowen Jin et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2310.07815)\]
 8. ASI: **"Auto Search Indexer for End-to-End Document Retrieval"**. _Tianchi Yang et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.findings-emnlp.464)\]
 9. RIPOR: **"Scalable and Effective Generative Information Retrieval"**. _Hansi Zeng et al._ WWW 2024. \[[Paper](https://doi.org/10.48550/arXiv.2311.09134)\]
 10. PAG: **"Planning Ahead in Generative Retrieval: Guiding Autoregressive Generation through Simultaneous Decoding"**. _Hansi Zeng et al._ SIGIR 2024. \[[Paper](https://doi.org/10.48550/arXiv.2404.14600)\]
 10. ASI++: **"ASI++: Towards Distributionally Balanced End-to-End Generative Retrieval"**. _Yuxuan Liu et al._ arXiv 2024. \[[Paper](https://doi.org/10.48550/arXiv.2405.14280)\]
+11. GR2: **"Generative Retrieval Meets Multi-Graded Relevance"**. _Yubao Tang et al._ NeurIPS 2024. \[[Paper](https://arxiv.org/abs/2409.18409)\]
 
 - ##### **Text-based Identifier**
 
@@ -109,6 +112,8 @@ This repository contains a curated collection of research papers on generative i
 8. SE-DSI: **"Semantic-Enhanced Differentiable Search Index Inspired by Learning Strategies"**. _Yubao Tang et al._ KDD 2023. \[[Paper](https://doi.org/10.1145/3580305.3599903)\]
 9. NOVO: **"NOVO: Learnable and Interpretable Document Identifiers for Model-Based IR"**. _Zihan Wang et al._ CIKM 2023. \[[Paper](https://doi.org/10.1145/3583780.3614993)\]
 10. GLEN: **"GLEN: Generative Retrieval via Lexical Index Learning"**. _Sunkyung Lee et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.477)\]
+11. LLM2GR: **"Generative Retrieval with Large Language Models"**. _Ye Wang et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2402.17010v2)\]
+12. Few-Shot GR: **"Generative Retrieval with Few-shot Indexing"**. _Arian Askari et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2408.02152)\]
 
 #### Incremental Learning
 
@@ -154,7 +159,8 @@ This repository contains a curated collection of research papers on generative i
 4. SEATER: **"Generative Retrieval with Semantic Tree-Structured Item Identifiers via Contrastive Learning"**. _Zihua Si et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2309.13375)\]
 5. IDGenRec: **"Towards LLM-RecSys Alignment with Textual ID Learning"**. _Juntao Tan et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2403.19021)\]
 6. LCRec: **"Adapting large language models by integrating collaborative semantics for recommendation"**. _Bowen Zheng et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2311.09049)\]
-7. ColaRec: **"Enhanced Generative Recommendation via Content and Collaboration Integration"**. _Yidan Wang et al._ 2024. \[[Paper](https://api.semanticscholar.org/CorpusID:268723798)\]
+7. ColaRec: **"Enhanced Generative Recommendation via Content and Collaboration Integration"**. _Yidan Wang et al._ arXiv 2024. \[[Paper](https://api.semanticscholar.org/CorpusID:268723798)\]
+8. EAGER: **"EAGER: Two-Stream Generative Recommender with Behavior-Semantic Collaboration"**. _Ye Wang et al._ KDD 2024. \[[Paper](https://dl.acm.org/doi/abs/10.1145/3637528.3671775)\]
 
 ### Reliable Response Generation
 
@@ -201,7 +207,7 @@ This repository contains a curated collection of research papers on generative i
 10. Iter-RetGen: **"Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy"**. _Zhihong Shao et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2305.15294)\]
 11. IR-COT: **"Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions"**. _Harsh Trivedi et al._ ACL 2023. \[[Paper](https://doi.org/10.18653/v1/2023.acl-long.557)\]
 12. FLARE: **"Active Retrieval Augmented Generation"**. _Zhengbao Jiang et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.495)\]
-13. Self-RAG: **"Learning to Retrieve, Generate, and Critique through Self-Reflection"**. _Akari Asai et al._ arXiv 2023. \[[Paper](https://doi.org/10.48550/arXiv.2310.11511)\]
+13. Self-RAG: **"Learning to Retrieve, Generate, and Critique through Self-Reflection"**. _Akari Asai et al._ ICLR 2024. \[[Paper](https://doi.org/10.48550/arXiv.2310.11511)\]
 
 - ##### **Tool Augmentation**
 
@@ -360,6 +366,7 @@ This repository contains a curated collection of research papers on generative i
 11. **"A Survey of Large Language Models Attribution"**. _Dongfang Li et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2311.03731)\]
 12. **"Retrieval-Augmented Generation for Large Language Models: A Survey"**. _Yunfan Gao et al._ arXiv 2023. \[[Paper](https://arxiv.org/abs/2312.10997)\]
 13. **"Unifying Bias and Unfairness in Information Retrieval: A Survey of Challenges and Opportunities with Large Language Models"**. _Sunhao Dai et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2404.11457)\]
+14. **"Trustworthiness in Retrieval-Augmented Generation Systems: A Survey"**. _Yujia Zhou et al._ arXiv 2024. \[[Paper](https://arxiv.org/abs/2409.10102)\]
 
 ### Opining Papers
 
