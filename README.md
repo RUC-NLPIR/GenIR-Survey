@@ -54,6 +54,8 @@ This repository contains a curated collection of research papers on generative i
 
 ### Generative Document Retrieval
 
+![GR_Timeline.png](assets/GR_Timeline.png)
+
 #### Model Training and Structure
 
 - ##### Training
