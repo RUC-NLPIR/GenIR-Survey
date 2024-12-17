@@ -1,4 +1,4 @@
-# GenIR-Survey
+# From Matching to Generation: A Survey on Generative Information Retrieval
 
 This repository contains a curated collection of research papers on generative information retrieval. These papers are organized according to the categorizations outlined in our survey "[From Matching to Generation: A Survey on Generative Information Retrieval](https://arxiv.org/abs/2404.14851)".
 
