@@ -379,21 +379,26 @@ This repository contains a curated collection of research papers on generative i
 Please kindly cite our paper if helps your research:
 
 ```BibTex
-@article{GenIRSurvey,
-    author={Xiaoxi Li and
-            Jiajie Jin and
-            Yujia Zhou and
-            Yuyao Zhang and
-            Peitian Zhang and
-            Yutao Zhu and
-            Zhicheng Dou},
-    title={From Matching to Generation: A Survey on Generative Information Retrieval},
-    journal={CoRR},
-    volume={abs/2404.14851},
-    year={2024},
-    url={https://arxiv.org/abs/2404.14851},
-    eprinttype={arXiv},
-    eprint={2404.14851}
+@article{DBLP:journals/corr/abs-2404-14851,
+  author       = {Xiaoxi Li and
+                  Jiajie Jin and
+                  Yujia Zhou and
+                  Yuyao Zhang and
+                  Peitian Zhang and
+                  Yutao Zhu and
+                  Zhicheng Dou},
+  title        = {From Matching to Generation: {A} Survey on Generative Information
+                  Retrieval},
+  journal      = {CoRR},
+  volume       = {abs/2404.14851},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2404.14851},
+  doi          = {10.48550/ARXIV.2404.14851},
+  eprinttype    = {arXiv},
+  eprint       = {2404.14851},
+  timestamp    = {Mon, 27 May 2024 09:10:17 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2404-14851.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
