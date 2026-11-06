@@ -208,6 +208,8 @@ This repository contains a curated collection of research papers on generative i
 11. IR-COT: **"Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions"**. _Harsh Trivedi et al._ ACL 2023. \[[Paper](https://doi.org/10.18653/v1/2023.acl-long.557)\]
 12. FLARE: **"Active Retrieval Augmented Generation"**. _Zhengbao Jiang et al._ EMNLP 2023. \[[Paper](https://aclanthology.org/2023.emnlp-main.495)\]
 13. Self-RAG: **"Learning to Retrieve, Generate, and Critique through Self-Reflection"**. _Akari Asai et al._ ICLR 2024. \[[Paper](https://doi.org/10.48550/arXiv.2310.11511)\]
+14. ParamMute: **"Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation"**. _Pengcheng Huang et al._ NeurIPS 2025. \[[Paper](https://openreview.net/forum?id=CyUq9D99vE)\]
+15. SPARK: **"Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation"**. _Ruochang Li et al._ arXiv 2026. \[[Paper](https://arxiv.org/abs/2606.27786)\]
 
 - ##### **Tool Augmentation**
 
